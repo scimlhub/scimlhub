@@ -13,10 +13,15 @@
 </div>
 
 ## 📚 Overview
+<!---
+SciMLHub aims to accelerate and democratize scientific machine learning by making high-quality datasets and tools accessible to both academia and industry, much like how HuggingFace has enabled rapid progress in computer vision, NLP, and large language models.
+It fills a critical gap in the scientific ML ecosystem by offering a data-centric, unified repository of curated datasets spanning multiple engineering and scientific domains.
+Existing frameworks tackling industrial problems typically focus on model development and assume users bring their own data. SciMLHub complements these tools by providing standardized and streamlined access mechanisms that reduce or eliminate the data preparation overhead and enable faster model development.
+It also includes built-in support for governance, data transformation pipelines tailored to ML architectures, and collaboration tools that facilitate reproducibility and team-based development.
 
-SciMLHub fills a critical gap in the scientific ML ecosystem by providing a data-centric, unified repository of curated datasets spanning multiple engineering and scientific domains, with governance, transformation pipelines, and collaboration tools. Unlike existing frameworks that focus on model development and assume users bring their own data, SciMLHub complements these tools by standardizing and streamlining access to high-quality data. SciMLHub aims to accelerate and democratize scientific machine learning by making high-quality datasets and tools accessible to both academia and industry, much like how HuggingFace has enabled rapid progress in computer vision, NLP, and large language models.
-
-
+SciMLHub fills a critical gap in the scientific ML ecosystem by providing a data-centric, unified repository of curated datasets spanning multiple engineering and scientific domains, with governance, transformation pipelines, and collaboration tools. Unlike existing frameworks that focus on model development and assume users bring their own data, SciMLHub complements these tools by standardizing and streamlining access to high-quality data. SciMLHub aims to accelerate and democratize scientific machine learning by making high-quality datasets and tools accessible to both academia and industry, much like how HuggingFace has enabled rapid progress in computer vision, NLP, and large language models. 
+-->
+SciMLHub aims to accelerate and democratize scientific machine learning across both academia and industry, similar to how HuggingFace has driven progress in computer vision, NLP, and large language models. To achieve this, SciMLHub addresses a critical gap in the SciML ecosystem by offering a data-centric, unified repository of curated datasets spanning multiple engineering and scientific domains. While existing frameworks often focus on model development and expect users to supply their own data, SciMLHub complements these tools by providing standardized datasets and streamlined transformation and access pipelines. This reduces the burden of data engineering and enables faster, more reproducible model development.
 
 ## 🎯 Key Features
 
@@ -44,7 +49,7 @@ SciMLHub fills a critical gap in the scientific ML ecosystem by providing a data
   - Cloud-native workflow support
 
 ### 3. 🔄 Scientific Data Transformations
-- **Transform raw simulation data into architecture compatible Torch tensors**
+- **Support transformations of raw data to model-specific tensors**
   - FNO
   - DeepONet
   - MeshgraphNet
@@ -62,7 +67,13 @@ SciMLHub fills a critical gap in the scientific ML ecosystem by providing a data
   - Model training scripts
   - Evaluation frameworks
 
-### 🚀 5.  Integration to MLFlow and WandB for experiment and model tracking
+### 🚀 5.  Experiment and Model Tracking
+- **Experiment Tracking**
+  - MLFlow
+  - WandB
+- **Model Tracking**
+  - MLFlow
+  - WandB
 
 ### 6. 👥 Collaborative Hub Features
 - **Version Control**
@@ -91,7 +102,6 @@ SciMLHub fills a critical gap in the scientific ML ecosystem by providing a data
   - Azure
 - **Deployment Options**
   - Docker containers
-  - Reproducible experimentation
 
 ### 8. 📚 Educational Resources
 - **Comprehensive Documentation**
