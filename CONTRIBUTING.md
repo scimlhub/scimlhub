@@ -111,6 +111,7 @@ def preprocess_data(
     # Implementation
 ```
 
+<!---
 ### C++
 - Follow Google C++ Style Guide
 - Use modern C++ features
@@ -131,7 +132,7 @@ void preprocess_data(
     bool normalize = true
 );
 ```
-
+-->
 ## 📞 Communication
 
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/scimlhub/scimlhub/discussions)

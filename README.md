@@ -14,7 +14,9 @@
 
 ## 📚 Overview
 
-SciMLHub is a DataModel Hub designed to revolutionize Scientific Machine Learning (SciML) through a collection of curated datasets, models, and tools. Our platform aims to accelerate scientific discovery by providing standardized, accessible, and high-quality resources for the scientific ML community.
+SciMLHub fills a critical gap in the scientific ML ecosystem by providing a data-centric, unified repository of curated datasets spanning multiple engineering and scientific domains, with governance, transformation pipelines, and collaboration tools. Unlike existing frameworks that focus on model development and assume users bring their own data, SciMLHub complements these tools by standardizing and streamlining access to high-quality data. SciMLHub aims to accelerate and democratize scientific machine learning by making high-quality datasets and tools accessible to both academia and industry, much like how HuggingFace has enabled rapid progress in computer vision, NLP, and large language models.
+
+
 
 ## 🎯 Key Features
 
@@ -31,19 +33,24 @@ SciMLHub is a DataModel Hub designed to revolutionize Scientific Machine Learnin
 - **Standardized Metadata**
   - Quick search capabilities
   - Enhanced discoverability
-  - Full reproducibility
 
 ### 2. 🔌 Modular Data Access APIs
-- **Multi-language Support**
+- **Supported Languages**
   - Python
-  - C++
 - **Optimized Performance**
   - Efficient streaming (in-situ processing)
   - Chunked data loading
   - HPC compatibility (MPI, RDMA)
   - Cloud-native workflow support
 
-### 3. 🤖 Model Coupling
+### 3. 🔄 Scientific Data Transformations
+- **Transform raw simulation data into architecture compatible Torch tensors**
+  - FNO
+  - DeepONet
+  - MeshgraphNet
+  - U-Net
+
+### 4. 🤖 Model Coupling
 - **Selection of Frameworks**
   - NVIDIA PhysicsNeMo
 - **Selection of Models**
@@ -55,7 +62,9 @@ SciMLHub is a DataModel Hub designed to revolutionize Scientific Machine Learnin
   - Model training scripts
   - Evaluation frameworks
 
-### 4. 👥 Collaborative Hub Features
+### 🚀 5.  Integration to MLFlow and WandB for experiment and model tracking
+
+### 6. 👥 Collaborative Hub Features
 - **Version Control**
   - Git for datasets/models
   - Fork capabilities
@@ -66,15 +75,17 @@ SciMLHub is a DataModel Hub designed to revolutionize Scientific Machine Learnin
   - Active moderation
   - Regular releases
 
-### 5. 📈 In-situ Analytics Integration (top-of-my-head thoughts)
+<!---
+### 7. 📈 In-situ Analytics Integration (top-of-my-head thoughts)
 - **HPC Integration**
   - ADIOS2 compatibility
 - **Analytics Tools**
   - On-the-fly metadata extraction
   - Real-time dashboards
   - Monitoring capabilities
+-->
 
-### 6. ☁️ Cloud-Native Scalability
+### 7. ☁️ Cloud-Native Scalability
 - **Cloud Integration**
   - AWS
   - Azure
@@ -82,7 +93,7 @@ SciMLHub is a DataModel Hub designed to revolutionize Scientific Machine Learnin
   - Docker containers
   - Reproducible experimentation
 
-### 7. 📚 Educational Resources
+### 8. 📚 Educational Resources
 - **Comprehensive Documentation**
   - Beginners' guide to SciML
   - Case studies
@@ -109,3 +120,4 @@ For questions and support, please open an issue or contact the maintainers.
 <div align="center">
 Made with ❤️ by the SciML Community
 </div>
+
